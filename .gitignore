@@ -1,0 +1,24 @@
+# Java
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+*.log
+
+# Environment & secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
